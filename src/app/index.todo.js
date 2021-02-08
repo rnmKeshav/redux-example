@@ -12,23 +12,14 @@ const App = (payload) => {
 }
 
 const mapStateToProps = (state) => {
-    let {value} = state;
-
-    return {
-        counter: value
-    }
+    // Get Data from Store and return
 }
+
 
 const mapDispatchToProps = (dispatch) => {
-    //const dispatch = useDispatch();
-
-    const increment = () => {
-        dispatch({type: "counter/increment"});
-    }
-
-    return {
-        increment
-    }
+    // Create event handler and dispatch event to reducer
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+// connect app to redux store
+export default App;
