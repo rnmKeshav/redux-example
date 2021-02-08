@@ -1,6 +1,9 @@
 ### Redux Intro
  - Run following command to install redux and it's dependency 
- `npm install --save @reduxjs/toolkit react-redux`
+
+ ```
+ npm install --save @reduxjs/toolkit react-redux
+ ```
 
 ### Steps
     - Create a reducer
